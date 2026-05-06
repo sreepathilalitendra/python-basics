@@ -22,7 +22,7 @@ n = int(input("Enter a number:"))
 if n % 2 == 0:
     print("Even")
 else:
-    print("odd")
+    print("OSdd")
 # program 2 - positive / neagtive 
 num = int(input("Enter a number:"))
 if num > 0:
@@ -45,4 +45,4 @@ if marks >= 90:
 elif marks >=70:
     print("Grade B")
 else:
-    print("Grade c")    
+    print("Grade C")    
