@@ -13,9 +13,9 @@ a = int(input("Enter the value of a:"))
 b = int(input("Enter the value of b:"))
 print(a+b)
 #subtract two number 
-A = int(input("Enter the value of A:"))
-B = int(input("Enter the value of B:"))
-print(a-b)
+num1= int(input("Enter the value of num1:"))
+num2= int(input("Enter the value of num2:"))
+print(num1-num2)
 print(9-6)
 x = 20
 y = 10 

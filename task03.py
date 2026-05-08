@@ -7,7 +7,7 @@ print(a,type(a))
 print(b,type(b))
 print(c,type(c))
 print( d,type(d))
-# prigram 2 
+# program 2 
 a =int(input("Enter the value of a:"))
 print(type(a))
 b = float(input("enter the value of b:"))

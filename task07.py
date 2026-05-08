@@ -8,7 +8,7 @@ print(name[5])#n
 name = input("Enter your name:") # lucky
 print("First letter:",name[0]) #l
 # program -3
-name = " lalitendra"
+name = "lalitendra"
 print(name[-1]) # a
 print(name[-2]) # r
 # Task 

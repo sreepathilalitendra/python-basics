@@ -23,7 +23,7 @@ if n % 2 == 0:
     print("Even")
 else:
     print("Odd")
-# program 2 - positive / neagtive 
+# program 2 - positive / Negative
 num = int(input("Enter a number:"))
 if num > 0:
     print("positive")
