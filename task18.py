@@ -4,7 +4,8 @@ print(data)
 numbers = [1,2,3]
 numbers.extend([4,5])
 print(numbers)
-# numbers = [10,20,30]
+# priniting using loop
+numbers = [10,20,30]
 for i in numbers:
     print(i)
 #program 1
@@ -16,6 +17,7 @@ print(numbers)
 # remove() method 
 fruits =["apple","banana","mango"]
 fruits.remove("banana")
+print(fruits)
 # program -3 
 #pop() method
 numbers = [10,20,30]
@@ -29,5 +31,23 @@ for i in numbers:
 numbers = [10,20,30]
 total = 0
 for i in numbers:
-    total+=i
-    print("Sum= ",total)
+    total += i
+print("Sum = ",total)
+# task 
+#create list of color
+colors = ["red","green","orange"]
+print(colors)
+print(len(colors))
+# insert new color
+colors.insert( 1,"pink")
+print(colors)
+#remove 
+colors.remove("green")
+print(colors)
+#pop
+colors.pop(-1)
+print(colors)
+#primting all items using loop
+for i in colors:
+    print(i)
+
