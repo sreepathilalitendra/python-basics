@@ -34,5 +34,5 @@ a = 24
 b = 6 
 print(a / b )
 a = int(input("Enter the value of a:"))
-b = int(input("Enter the value of b:"))
-print(a / b )
+b = int(input("Enter the value of b:")) 
+print(a / b)    
