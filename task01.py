@@ -41,5 +41,12 @@ a = int(input("Enter the value of a:"))
 b = int(input("Enter the value of b:")) 
 print(a / b)  
 print(a // b)  
-
+# module 
+print(45 % 2)
+a = 45 
+b = 2 
+print(a % b)
+a = int(input("Enter the value of a:"))
+b = int(input("Enter the value of b:"))
+print(a % b) 
 
