@@ -45,4 +45,25 @@ if marks >= 90:
 elif marks >=70:
     print("Grade B")
 else:
-    print("Grade C")    
+    print("Grade C")
+age = int(input("Enter your age:"))
+if age < 5:
+    print("Ticket is free for Kids!")
+elif age >= 5 and age <= 18:
+    print("Ticket price is 150(Student Discount)")
+elif age > 18 and age < 60:
+    print("Ticket Price is 250(Adult)")
+else: 
+    print("Ticket price is 100(Senior citizen Discount)")
+# ATM logic 
+pin = int(input("Enter your 4-digits pin:"))
+if pin == 1234:
+    print("PIN is correct.")
+ # nested if 
+    amount = int(input("Enter withdrawal amount:"))
+    if amount <= 5000:
+        print("Withdrawal Successful! Collect Your Cash.")
+    else: 
+        print("Insfficient balance in your account!")
+else:
+    print("Wrong PIN ! Access Denied.") 
