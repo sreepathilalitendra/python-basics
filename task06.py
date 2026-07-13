@@ -17,8 +17,8 @@ b = int(input("Enter the value of b:"))
 print((a+b)*2) # a = 10,b = 20 ,output = 60 
 print(10 + 4 *2 - 6 / 3) # output = 16.0
 print(2 + 3 ** 2 * 2)# output = 20
-a = int(input("Enter the value of a:"))
-b = int(input("Enter the value of b:"))
-c = int(input("Enter the value of c:"))
+a = int(input("Enter the value of a:")) # 10 
+b = int(input("Enter the value of b:")) # 20 
+c = int(input("Enter the value of c:")) # 30 
 print((a+b)*c) # 900 
 print(a+b*c) #610
