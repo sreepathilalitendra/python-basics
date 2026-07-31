@@ -5,6 +5,7 @@ c = int(input("Enter the value of c: "))
 
 print("Sum is:", a + b + c)
 
+
 # Swapping two numbers
 a = 5
 b = 10
