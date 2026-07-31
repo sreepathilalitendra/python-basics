@@ -1,11 +1,11 @@
-# if statement
+# If statement
 a = 10
 
 if a > 5:
     print("a is greater than 5")
 
 
-# if - else
+# If - Else
 a = 3
 
 if a > 5:
@@ -14,7 +14,7 @@ else:
     print("Smaller")
 
 
-# if-elif-else statement
+# If - Elif - Else statement
 a = 10
 
 if a > 10:
@@ -25,7 +25,7 @@ else:
     print("Less than 10")
 
 
-# Practice and Task
+# Practice and Tasks
 
 # Program 1 - Even or Odd
 n = int(input("Enter a number: "))
@@ -76,7 +76,7 @@ if age < 5:
 elif age >= 5 and age <= 18:
     print("Ticket price is 150 (Student Discount)")
 elif age > 18 and age < 60:
-    print("Ticket Price is 250 (Adult)")
+    print("Ticket price is 250 (Adult)")
 else:
     print("Ticket price is 100 (Senior Citizen Discount)")
 
@@ -93,6 +93,6 @@ if pin == 1234:
     if amount <= 5000:
         print("Withdrawal Successful! Collect Your Cash.")
     else:
-        print("Insufficient balance in your account!")
+        print("Withdrawal limit exceeded!")
 else:
     print("Wrong PIN! Access Denied.")
