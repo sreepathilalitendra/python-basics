@@ -8,6 +8,7 @@ print(name)
 name = input("Enter your name: ")
 print("Your name is", name)
 
+
 # Addition of two numbers
 print(4 + 8)
 
@@ -18,6 +19,7 @@ print(a + b)
 a = int(input("Enter the value of a: "))
 b = int(input("Enter the value of b: "))
 print(a + b)
+
 
 # Subtraction of two numbers
 num1 = int(input("Enter the value of num1: "))
@@ -30,6 +32,7 @@ x = 20
 y = 10
 print(x - y)
 
+
 # Multiplication of two numbers
 a = 7
 b = 8
@@ -40,6 +43,7 @@ print(2 * 4)
 x = int(input("Enter the value of x: "))
 y = int(input("Enter the value of y: "))
 print(x * y)
+
 
 # Division of two numbers
 print(20 / 5)    # Normal division
@@ -54,6 +58,7 @@ a = int(input("Enter the value of a: "))
 b = int(input("Enter the value of b: "))
 print(a / b)
 print(a // b)
+
 
 # Modulus Operator
 print(45 % 2)
