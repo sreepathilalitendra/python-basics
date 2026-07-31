@@ -96,3 +96,45 @@ if pin == 1234:
         print("Withdrawal limit exceeded!")
 else:
     print("Wrong PIN! Access Denied.")
+
+# Largest Number
+
+a = int(input("Enter the value of a: "))
+b = int(input("Enter the value of b: "))
+c = int(input("Enter the value of c: "))
+
+if a >= b and a >= c:
+    print(a, "is the largest number")
+elif b >= a and b >= c:
+    print(b, "is the largest number")
+else:
+    print(c, "is the largest number")
+
+
+# Even or Odd and Positive or Negative
+
+a = int(input("Enter a number: "))
+
+if a % 2 == 0 and a > 0:
+    print("Even and Positive number")
+elif a == 0:
+    print("Zero")
+elif a % 2 == 0 and a < 0:
+    print("Even and Negative number")
+elif a % 2 != 0 and a > 0:
+    print("Odd and Positive number")
+else:
+    print("Odd and Negative number")
+
+
+# Compare Two Numbers
+
+a = int(input("Enter the value of a: "))
+b = int(input("Enter the value of b: "))
+
+if a > b:
+    print("A is greater")
+elif b > a:
+    print("B is greater")
+else:
+    print("Equal")
